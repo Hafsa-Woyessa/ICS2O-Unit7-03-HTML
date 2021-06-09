@@ -1,14 +1,14 @@
-// this connects the "age button" to the 
+// this connects the "age button" to the
 document.getElementById('button').addEventListener('click', comparision)
 let age = 0
 
-function comparision() {
-    // get the age number and convert to an integer
-   age = document.getElementById('input').value
-   age = parseInt(age)
+function comparision () {
+// get the age number and convert to an integer
+ age = document.getElementById('input').value
+ age = parseInt(age)
 
-// checks if user's age  is younger than 17
-  if (age >= 17) { 
+  // checks if user's age  is younger than 17
+  if (age >= 17) {
   document.getElementById('answer').innerHTML = 'You can see an R  movie alone'
 } else if (age >= 13) {
   document.getElementById('answer').innerHTML = 'You can see a PG-13 movie alone'
