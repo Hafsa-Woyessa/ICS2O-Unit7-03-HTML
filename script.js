@@ -10,11 +10,11 @@ function comparision () {
   // checks if user's age  is younger than 17
   if (age >= 17) {
     document.getElementById('answer').innerHTML = 'You can see an R  movie alone'
-}  else if (age >= 13) {
+  }  else if (age >= 13) {
     document.getElementById('answer').innerHTML = 'You can see a PG-13 movie alone'
-}   else if (age >= 5) {
+  }  else if (age >= 5) {
     document.getElementById('answer').innerHTML = 'You can see a G or PG  movie alone'
-} else {
+  }  else {
     document.getElementById('answer').innerHTML = 'You\'re too young to watch movies'
   }
 }
